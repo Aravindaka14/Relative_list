@@ -1,0 +1,51 @@
+#main {
+    background-color: #CCCCCC;
+    width: inherit;
+    height: inherit;
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
+    background-color: #FFCC00;
+}
+
+form {
+    text-align: center;
+    padding: 5vh 0 0 0;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+    font-size: medium;
+}
+
+form button {
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: medium;
+    border-color: grey;
+    color: #003366;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.content {
+    width: 60vw;
+    height: 100vh;
+    margin-left: 20vw;
+    background-color: #FFCC00;
+    color: aliceblue;
+
+    border-radius: 10px;
+}
+
+.list {
+    font-size: large;
+    color: maroon;
+    padding: 5px;
+}
