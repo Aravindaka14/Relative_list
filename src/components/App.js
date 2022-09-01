@@ -22,9 +22,9 @@ function App() {
                 </form>
                 <ol key="relativeList">
                     {
-                        list.map((ele, i = `relativeList${i}`) => {
+                        list.map((ele, i) => {
                             return (
-                                <li className="list" key={i}>{ele}</li>
+                                <li className="list" key={`relativeList${i}`}>{ele}</li>
                             )
                         })
                     }
